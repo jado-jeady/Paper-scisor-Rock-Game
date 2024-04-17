@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #f6f7fb;
+  padding-top: 15vh;
 }
 ::selection {
   color: #fff;
@@ -21,11 +22,12 @@ body {
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 10vh;
+
 }
 .result_images {
   display: flex;
-  column-gap: 7rem;
+  /* //background-color: #27a966; */
+  column-gap: 10rem;
 }
 .container.start .user_result {
   transform-origin: left;
@@ -47,7 +49,7 @@ body {
   }
 }
 .result_images img {
-  width: 100px;
+  width: 70px;
 }
 .user_result img {
   transform: rotate(90deg);
@@ -83,10 +85,11 @@ body {
   transition: opacity 0.3s ease;
 }
 .option_image:hover {
-  opacity: 1;
+  opacity: 2;
 }
 .option_image.active {
   opacity: 1;
+  
 }
 .option_image img {
   pointer-events: none;
